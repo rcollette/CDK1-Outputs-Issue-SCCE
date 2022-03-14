@@ -1,8 +1,8 @@
 {
-  "name": "cdk-exports-issue",
+  "name": "cdk1-148init",
   "version": "0.1.0",
   "bin": {
-    "cdk-exports-issue": "bin/cdk-exports-issue.js"
+    "cdk1-148init": "bin/cdk1-148init.js"
   },
   "scripts": {
     "build": "tsc",
@@ -15,13 +15,16 @@
     "@types/node": "10.17.27",
     "jest": "^26.4.2",
     "ts-jest": "^26.2.0",
-    "aws-cdk": "2.16.0",
+    "aws-cdk": "1.106.1",
+    "@aws-cdk/aws-iam": "1.106.1",
+    "@aws-cdk/aws-ec2": "1.106.1",
+    "@aws-cdk/aws-ecs-patterns": "1.106.1",
+    "@aws-cdk/aws-ecr": "1.106.1",
     "ts-node": "^9.0.0",
     "typescript": "~3.9.7"
   },
   "dependencies": {
-    "aws-cdk-lib": "2.16.0",
-    "constructs": "^10.0.0",
+    "@aws-cdk/core": "1.106.1",
     "source-map-support": "^0.5.16"
   }
 }
